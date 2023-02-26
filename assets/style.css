@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: -webkit-linear-gradient(90deg,rgb(40, 27, 3)  10%,  rgb(236, 105, 4)90%);
+}
+/* HEADER Y NAV BAR */
+header{
+    border-bottom: 12px solid black;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+nav a{ 
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px dotted black;
+    margin-bottom: 7px ;
+    
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    width: 75px;
+    text-align: center;
+    height: 35px;
+    align-self: center;
+    box-shadow: 3px 3px 2px 3px black;
+    padding-top: 8px;
+}
+
+/* IMAGEN */
+
+
+.imagen-sabana {
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 3);
+    height: 345px;
+    width: 670px;
+    border-width: 0 5px 5px 5px;
+    z-index: 100;
+    border: 12px solid black;
+    margin-top: -4.5%;
+}
+.titulo-header{
+    color: white;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    grid-row: 1 / 2;
+    position: absolute;
+}
+main article img{
+    height: 321px;
+    width: 647px;
+}
+.texto-header{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+/* MAIN CONTAINER */ 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;  
+}
+.contenido{
+    border: 12px solid black;
+    background: -webkit-linear-gradient(90deg,rgb(255, 254, 252)  10%,  rgb(249, 188, 127)90%);
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 20px 0 0 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 13px;
+}
+blockquote{
+    border: 1px dotted red;
+    padding: 20px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    background-image: url(/img/comillas.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    line-height: 23px;
+}
+main article a{
+    color: rgba(213, 107, 0, 0.933);
+    text-decoration: none;
+}
+.enlace-texto:hover{
+    border-bottom: 2px dotted rgb(79, 11, 11);;
+    color: rgb(79, 11, 11);
+}
+.enlace-gamma{
+    font-size: 10px;
+    align-self: center;
+}
